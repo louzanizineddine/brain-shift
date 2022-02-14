@@ -1,0 +1,56 @@
+body {
+    background-color: #EEE;
+}
+
+.info-bar {
+    margin-top: 40px;
+}
+
+.timer {
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 1rem;
+}
+
+.score h3 {
+    font-size: medium;
+    letter-spacing: 1rem;
+}
+
+.score span {
+    color: green;
+    font-size: x-large;
+}
+
+.even-card , .vowel-card {
+     height: 200px;
+     width: 200px;
+     border: 1px solid aquamarine;
+     text-align: center;
+     line-height: 200px;
+     margin-top: 20px;
+     background-color: green;
+     font-size: 40px;
+     color: yellow;
+}
+
+.vowel-card {
+    margin-bottom: 50px;
+}
+
+.yes-no-card {
+    margin-top: 40px;
+}
+
+.yes-no-card button {
+
+    height: 70px;
+    width: 150px;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.yes-no-card button:hover {
+    background-color: blue;
+}
